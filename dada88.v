@@ -100,25 +100,4 @@ fulladder f44(ca[39],ci[15],s[40],op[12],ci[16]);
 fulladder f45(ca[40],ci[16],s[41],op[13],ci[17]);
 fulladder f46(ca[41],ci[17],re[63],op[14],op[15]);
 
-
-
-
-
-
-
- 
-
-
-
-
-
-//halfadder h1(ca[10],ca[16],s[23],ca[23]);//pp[9] pp[10]
-//halfadder h1(s[16],ca[17],s[24],ca[24]);//pp[8] 
-
-
-
-//halfadder h1(re[1],re[8],op[1],ca[0]);
-//fulladder fa1(re[2],re[9],ca[0],temp,ca[1]);
-//fulladder fa1(temp,ca[1],re[16],op[2],ca[2]);
-
 endmodule

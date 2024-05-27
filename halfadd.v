@@ -1,4 +1,4 @@
-module hag(a,b,s,c);
+module halfadder(a,b,s,c);
 input a,b;
 output s,c;
 xor(s,a,b);
@@ -7,7 +7,7 @@ endmodule
 module halftestg();
 reg A,B;
 wire S,C;
-hag e1(.a(A),.b(B),.s(S),.c(C));
+halfadder e1(.a(A),.b(B),.s(S),.c(C));
 integer k;
 initial
 begin

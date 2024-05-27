@@ -1,4 +1,4 @@
-module fulladd(a,b,cin,s,co);
+module fulladder(a,b,cin,s,co);
 input a,b,cin;
 output s,co;
 assign s= a^b^cin;
@@ -7,7 +7,7 @@ endmodule
 module fulltest();
 reg a,b,cin;
 wire s,co;
-fulladd k1(.a(a),.b(b),.cin(cin),.s(s),.co(co));
+fulladder k1(.a(a),.b(b),.cin(cin),.s(s),.co(co));
 integer j;
 initial
 begin
